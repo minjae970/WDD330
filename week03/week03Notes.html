@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WDD 330 Week03 notes</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <h1>Week02 Notes</h1>
+    <ul>
+        <li>
+            <h1>Object methods, "this"</h1>
+        </li>
+        <li>               
+          <p>To create an object function: object.(method) = function() { (insert code here); };    You can pre-declare this function by doing function method() { (insert code here); };  and object.method = method;</p>
+        </li>
+        <li>
+            <p>Shorthand syntax for methods in an object is object = { method() { code;}}; instead of doing the method: function() { code;}.</p>
+        </li>
+        <li>
+            <p>“this” refers to the current object.</p>
+        </li>
+        <li>
+            <p>“this” is not bound as “this” is evaluated at run time.</p>
+        </li>
+        <li>               
+            <p>Unbound “this” allows functions to be reused for different objects, but creates more potential errors and mistakes.</p>
+        </li>
+        <li>               
+            <p>Arrow function uses “this” from the outer context.</p>
+        </li>
+        <li>
+            <h1>Chapter 5: Objects</h1>
+        </li>
+        <li>               
+            <p>If an object’s property is a function, it is called a method.</p>
+        </li>
+        <li>               
+            <p>Objects can inherit properties from other objects. </p>
+        </li>
+        <li>               
+            <p>Object literal is object that is created directly in the language by wrapping all its properties in curly braces. This allows creation of objects without defining classes.</p>
+        </li>
+        <li>               
+            <p>Using constructor function allows us to create empty objects.</p>
+        </li>
+        <li>               
+            <p>You access properties with a period or bracket. </p>
+        </li>
+        <li>               
+            <p>You can call methods with period or bracket.</p>
+        </li>
+        <li>               
+            <p>You can check if a property exists by using “in” or hasOwnProperty function</p>
+        </li>
+        <li>               
+            <p>You can add or change properties to objects at any time.</p>
+        </li>
+        <li>               
+            <p>You can delete properties with “delete”</p>
+        </li>
+        <li>               
+            <p>Objects are copied by reference.</p>
+        </li>
+        <li>               
+            <p>JSON is string representation of object literals.</p>
+        </li>
+        <li>               
+            <p>Math object is a built in object for constants and methods.</p>
+        </li>
+        <li>               
+            <p>Date object contains information about date and time. Each object represents a single moment in time.</p>
+        </li>
+        <li>               
+            <p>The RegExp object is used to search strings for matches to the pattern.</p>
+        </li>
+        <li>
+            <h1>Chapter 6: The Document Object Model</h1>
+        </li>
+        <li>               
+            <p>DOM represents an HTML document as a network of connected nodes that forms tree-like structure.</p>
+        </li>
+        <li>               
+            <p>All nodes have numerical code to signify type. 1 is element, 2 is attribute, 3 is text, 8 is comment, and 9 is body.</p>
+        </li>
+        <li>               
+            <p>Document.querySelector() method allows you to use CSS notation to find first element in the document that matches a CSS selector provided as argument. querySelectorAll() method returns a node list of all that matches the CSS selector argument.</p>
+        </li>
+        <li>               
+            <p>We can find the text value of a node using node.nodeValue or variable.textContent.</p>
+        </li>
+        <li>               
+            <p>We can get or set attributes using getAttribute() and setAttribute() methods.</p>
+        </li>
+        <li>               
+            <p>We can set the class of an element by using className.</p>
+        </li>
+        <li>               
+            <p>createElement(), createTextNode(), appendChild() allows us to create markup dynamically.</p>
+        </li>
+        <li>               
+            <p>You can update css of an element by using element.style property</p>
+        </li>
+        <li>
+            <h1>Chapter 7: Events</h1>
+        </li>
+        <li>               
+            <p>addEventListener() method allows us to add an event listener that does something when some condition is met.</p>
+        </li>
+        <li>               
+            <p>You can have inline event listeners.</p>
+        </li>
+        <li>               
+            <p>“target” returns a reference to the node that fired the event.</p>
+        </li>
+        <li>               
+            <p>There are mouse events (click, mouse down, mouse up, dblclick, mouseover, mousemove) and keyboard events (keydown, keyup, keypress).</p>
+        </li>
+        <li>               
+            <p>There are touch events for modern devices (touchstart, touchend, touchmove, touchenter, touchleave, touchcancel).</p>
+        </li>
+        <li>               
+            <p>Eventlisteners can be removed by using removeEventListener.</p>
+        </li>
+        <li>               
+            <p>You can prevent default behavior by using preventDefault() method.</p>
+        </li>
+    </ul>
+  </body>
+</html>
